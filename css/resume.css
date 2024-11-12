@@ -1,0 +1,110 @@
+/*FIXED PAGE using px for resume*/
+#ResumeCSS header {
+  background-color: #C7E1FF;
+  padding: 32px;  /* 2rem = 32px */
+  border-radius: 8px;  /* 0.5rem = 8px */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);  /* 0.4rem = 6px, 1rem = 16px */
+  width: 1200px;  /* Adjust this value as needed */
+  text-align: center;
+}
+#ResumeCSS header h2 {
+  margin-top: 0;
+  padding: 16px;  /* 1rem = 16px */
+  font-size: 32px;  /* 2rem = 32px */
+  color: #C12A7B;
+  background-color: #E59DF3;
+  font-family: "Holtwood One SC", serif;
+  text-align: center;
+  border-radius: 8px;  /* 0.5rem = 8px */
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 3px 8px #E068;  /* 0.2rem = 3px, 0.5rem = 8px */
+}
+#ResumeCSS nav {
+  margin-top: 32px;  /* 2rem = 32px */
+}
+#ResumeCSS nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 1080px;  /* Changed from 90% to a fixed pixel value */
+  margin: 0 auto;
+}
+#ResumeCSS nav ul li {
+  flex: 1;
+  background-color: #E0D6FF;
+  padding: 24px 0;  /* 1.5rem = 24px */
+  border-radius: 8px;  /* 0.5rem = 8px */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 3px 8px #E068;  /* 0.2rem = 3px, 0.5rem = 8px */
+  margin: 0 16px;  /* 1rem = 16px */
+}
+#ResumeCSS nav ul li:hover {
+  background-color: #C12A7B;
+  transform: scale(1.1);
+}
+#ResumeCSS nav a {
+  font-family: "Holtwood One SC", serif;
+  text-decoration: none;
+  color: #C12A7B;
+  font-size: 18px;  /* 1.125rem = 18px */
+  transition: color 1s ease;
+}
+#ResumeCSS nav ul li:hover a {
+  color: white;
+}
+/* Body and typography styling */
+#ResumeCSS body {
+  background-color: #eedff0;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+#ResumeCSS h1 {
+  color: purple;
+  text-align: center;
+  font-size: 50px;
+  margin: 20px 0;
+}
+#ResumeCSS p {
+  color: purple;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0;
+}
+#ResumeCSS .contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;  /* 20px = 32px */
+  text-align: center;
+  margin: 0;
+}
+#ResumeCSS h3 {
+  color: purple;
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 50px;
+  margin: 20px 0;
+}
+#ResumeCSS .main {
+  padding: 30px 0;
+}
+#ResumeCSS .main ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+#ResumeCSS .main li {
+  color: purple;
+  text-align: center;
+  font-size: 18px;
+  margin: 8px 0;  /* 5px = 8px */
+}
+#ResumeCSS section {
+  margin: 30px 0;
+}

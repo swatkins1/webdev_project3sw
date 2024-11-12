@@ -1,0 +1,171 @@
+/* MIX FLUID AND FIXED page Arcane css */
+#ArcaneCSS header {
+  background-color: #C7E1FF;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  width: 100%;
+  text-align: center;
+}
+#ArcaneCSS header h2 {
+  margin-top: 0;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #C12A7B;
+  background-color: #E59DF3;
+  font-family: "Holtwood One SC", serif;
+  text-align: center;
+  border-radius: 0.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0.2rem 0.5rem #E068;
+}
+#ArcaneCSS nav {
+  margin-top: 2rem;
+}
+#ArcaneCSS nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+#ArcaneCSS nav ul li {
+  flex: 1;
+  background-color: #E0D6FF;
+  padding: 1.5rem 0;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0.2rem 0.5rem #E068;
+  margin: 0 1rem;
+}
+#ArcaneCSS nav ul li:hover {
+  background-color: #C12A7B;
+  transform: scale(1.1);
+}
+#ArcaneCSS nav a {
+  font-family: "Holtwood One SC", serif;
+  text-decoration: none;
+  color: #C12A7B;
+  font-size: 1.125rem;
+  transition: color 1s ease;
+}
+#ArcaneCSS nav ul li:hover a {
+  color: white;
+}
+#ArcaneCSS .container {
+  display: flex;
+  align-items: center;
+}
+#ArcaneCSS .container img {
+  max-width: 100px;
+  margin-right: 10px;
+}
+#ArcaneCSS .container p {
+  margin: 0;
+}
+#ArcaneCSS body {
+  background-color: #98A0D9;
+}
+#ArcaneCSS .evenarcane {
+  background-color: #ABFAA9;
+  padding: 20px;
+  margin: 10px auto;
+  text-align: right;
+  border: 10px solid #82D173;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 700px;
+}
+#ArcaneCSS .evenarcane img {
+  width: 50%;
+  max-width: 300px;
+  height: auto;
+}
+#ArcaneCSS .oddarcane {
+  background-color: #72429E;
+  padding: 20px;
+  margin: 10px auto;
+  text-align: left;
+  border: 10px solid #42253B;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 700px;
+}
+#ArcaneCSS .oddarcane img {
+  width: 50%;
+  max-width: 300px;
+  height: auto;
+}
+#ArcaneCSS h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+#ArcaneCSS h2 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+#ArcaneCSS .oddarcane p {
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+  text-align: left;
+}
+#ArcaneCSS .evenarcane p {
+  color: black;
+  font-family: verdana;
+  font-size: 20px;
+  text-align: right;
+}
+#ArcaneCSS .evenarcane h2 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;
+  color: black;
+}
+#ArcaneCSS .oddarcane h2 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;
+  color: white;
+}
+#ArcaneCSS .evenarcane img, .oddarcane img {
+  width: auto;
+  height: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+#ArcaneCSS .conclusion {
+  background-color: #2929ba;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  border: 10px solid #a6a6f7;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 700px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+#ArcaneCSS .conclusion h2 {
+  font-family: "Indie Flower", cursive;
+  font-size: 40px;
+  color: white;
+}
+#ArcaneCSS .conclusion p {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+#ArcaneCSS .conclusion iframe {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border: none;
+}
