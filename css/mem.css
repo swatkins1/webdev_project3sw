@@ -1,4 +1,5 @@
-header {
+/*FIXED PAGE using px for resume*/
+#MemoryCSS header {
   background-color: #C7E1FF;
   padding: 32px;  /* 2rem = 32px */
   border-radius: 8px;  /* 0.5rem = 8px */
@@ -6,7 +7,7 @@ header {
   width: 1200px;  /* Adjust this value as needed */
   text-align: center;
 }
-header h2 {
+#MemoryCSS header h2 {
   margin-top: 0;
   padding: 16px;  /* 1rem = 16px */
   font-size: 32px;  /* 2rem = 32px */
@@ -19,10 +20,10 @@ header h2 {
   margin: 0 auto;
   box-shadow: 0 3px 8px #E068;  /* 0.2rem = 3px, 0.5rem = 8px */
 }
-nav {
+#MemoryCSS nav {
   margin-top: 32px;  /* 2rem = 32px */
 }
-nav ul {
+#MemoryCSS nav ul {
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -30,7 +31,7 @@ nav ul {
   width: 1080px;  /* Changed from 90% to a fixed pixel value */
   margin: 0 auto;
 }
-nav ul li {
+#MemoryCSS nav ul li {
   flex: 1;
   background-color: #E0D6FF;
   padding: 24px 0;  /* 1.5rem = 24px */
@@ -39,41 +40,41 @@ nav ul li {
   box-shadow: 0 3px 8px #E068;  /* 0.2rem = 3px, 0.5rem = 8px */
   margin: 0 16px;  /* 1rem = 16px */
 }
-nav ul li:hover {
+#MemoryCSS nav ul li:hover {
   background-color: #C12A7B;
   transform: scale(1.1);
 }
-nav a {
+#MemoryCSS nav a {
   font-family: "Holtwood One SC", serif;
   text-decoration: none;
   color: #C12A7B;
   font-size: 18px;  /* 1.125rem = 18px */
   transition: color 1s ease;
 }
-nav ul li:hover a {
+#MemoryCSS nav ul li:hover a {
   color: white;
 }
 /* Body and typography styling */
-body {
-  background-color: #c095e6;
+#MemoryCSS body {
+  background-color: #eedff0;
   margin: 0;
   padding: 0;
   font-size: 16px;
 }
-h1 {
+#MemoryCSS h1 {
   color: purple;
   text-align: center;
   font-size: 50px;
   margin: 20px 0;
 }
-p {
+#MemoryCSS p {
   color: purple;
   font-family: Verdana, Arial, sans-serif;
   font-size: 20px;
   text-align: center;
   margin: 10px 0;
 }
-.contact-info {
+#MemoryCSS .contact-info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,29 +82,29 @@ p {
   text-align: center;
   margin: 0;
 }
-h3 {
+#MemoryCSS h3 {
   color: purple;
   text-align: center;
   font-family: 'Brush Script MT', cursive;
   font-size: 50px;
   margin: 20px 0;
 }
-.main {
+#MemoryCSS .main {
   padding: 30px 0;
 }
-ul {
+#MemoryCSS .main ul {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0;
   margin: 0;
 }
-li {
+#MemoryCSS .main li {
   color: purple;
   text-align: center;
   font-size: 18px;
   margin: 8px 0;  /* 5px = 8px */
 }
-section {
+#MemoryCSS section {
   margin: 30px 0;
 }
