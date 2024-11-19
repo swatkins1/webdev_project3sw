@@ -108,61 +108,50 @@
 #ResumeCSS section {
   margin: 30px 0;
 }
+
 /*FLUID ONLY ColorScheme css page*/
 /* Basic Page Styling */
 /* Body Styling */
-#ColorCSS body {
-  background-color: #dbf2c7;
-  margin: 0;
-  padding: 0;
-  font-size: 1rem;
-  line-height: 1.6;
-  position: relative; /* Added for positioning */
-}
-/* Header Styling */
+
 #ColorCSS header {
   background-color: #C7E1FF;
-  padding: 2rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
-  margin-bottom: 2rem;
-  width: 100%;
+  padding: 2rem; /* Relative to root font size */
+  border-radius: 0.5rem; /* Relative rounding */
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1); /* Fluid shadow sizes */
+  width: 80%; /* 80% of the parent container */
+  max-width: 75rem; /* Maximum size of 1200px (75 * 16px) */
   text-align: center;
-  float: none; 
-  position: relative; 
+  margin: 0 auto; /* Center the header horizontally */
 }
+
 #ColorCSS header h2 {
   margin-top: 0;
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 2rem; /* Relative font size */
   color: #C12A7B;
   background-color: #E59DF3;
   font-family: "Holtwood One SC", serif;
   text-align: center;
   border-radius: 0.5rem;
-  max-width: 80%;
+  max-width: 50rem; /* Maximum size of 800px */
   margin: 0 auto;
   box-shadow: 0 0.2rem 0.5rem #E068;
-  float: none; 
-  position: relative; 
 }
-/* Navigation Styling */
+
 #ColorCSS nav {
-  margin-top: 2rem;
-  float: none; 
-  position: relative; 
+  margin-top: 2rem; /* Space between header and nav */
 }
+
 #ColorCSS nav ul {
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  margin: 0 auto;
-  gap: 1rem;
-  float: none; 
-  position: relative; 
+  width: 90%; /* Fluid layout based on viewport width */
+  max-width: 67.5rem; /* Maximum size of 1080px */
+  margin: 0 auto; /* Centered navigation */
 }
+
 #ColorCSS nav ul li {
   flex: 1;
   background-color: #E0D6FF;
@@ -170,9 +159,49 @@
   border-radius: 0.5rem;
   transition: background-color 0.3s ease, transform 0.3s ease;
   box-shadow: 0 0.2rem 0.5rem #E068;
-  float: none; 
-  position: relative; 
+  margin: 0 1rem;
 }
+
+#ColorCSS nav ul li:hover {
+  background-color: #C12A7B;
+  transform: scale(1.1);
+}
+
+#ColorCSS nav a {
+  font-family: "Holtwood One SC", serif;
+  text-decoration: none;
+  color: #C12A7B;
+  font-size: 1.125rem; /* 18px */
+  transition: color 1s ease;
+}
+
+#ColorCSS nav ul li:hover a {
+  color: white;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  #ColorCSS header {
+    width: 90%; /* Adjust width for smaller devices */
+  }
+
+  #ColorCSS nav ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Full width */
+  }
+
+  #ColorCSS nav ul li {
+    margin: 1rem 0; /* Vertical spacing for nav items */
+  }
+}
+
+
+
+
+
+
+
 /* Main Content Styling */
 #ColorCSS .colorblock, .conclusion {
   background-color: #A2D6F9;
@@ -219,7 +248,7 @@
 }
 /* Conclusion Styling */
 #ColorCSS .conclusion h2 {
-  font-family: "Indie Flower", cursive;
+  font-family: "Devonshire", cursive;
   font-size: 2.5rem;
   color: black;
   float: none; 
@@ -241,6 +270,8 @@
   float: none; 
   position: relative; 
 }
+
+
 /* MIX FLUID AND FIXED page Arcane css */
 #ArcaneCSS header {
   background-color: #C7E1FF;
