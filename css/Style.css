@@ -112,6 +112,9 @@
 /*FLUID ONLY ColorScheme css page*/
 /* Basic Page Styling */
 /* Body Styling */
+/*FLUID ONLY ColorScheme css page*/
+/* Basic Page Styling */
+/* Body Styling */
 
 #ColorCSS header {
   background-color: #C7E1FF;
@@ -174,10 +177,7 @@
   font-size: 1.125rem; /* 18px */
   transition: color 1s ease;
 }
-#FontColor ul li {
-  font-family: "Holtwood One SC", serif;
-  color: #C12A7B;
-}
+
 #ColorCSS nav ul li:hover a {
   color: white;
 }
@@ -198,13 +198,6 @@
     margin: 1rem 0; /* Vertical spacing for nav items */
   }
 }
-
-
-
-
-
-
-
 /* Main Content Styling */
 #ColorCSS .colorblock, .conclusion {
   background-color: #A2D6F9;
@@ -273,6 +266,7 @@
   float: none; 
   position: relative; 
 }
+
 
 
 /* MIX FLUID AND FIXED page Arcane css */

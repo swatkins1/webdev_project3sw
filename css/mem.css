@@ -25,3 +25,60 @@ gmp-map {
   height: 400px;
 }
 
+#MemoryCSS header {
+  background-color: #C7E1FF;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  width: 100%;
+  text-align: center;
+}
+#MemoryCSS header h2 {
+  margin-top: 0;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #C12A7B;
+  background-color: #E59DF3;
+  font-family: "Holtwood One SC", serif;
+  text-align: center;
+  border-radius: 0.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0.2rem 0.5rem #E068;
+}
+#MemoryCSS nav {
+  margin-top: 2rem;
+}
+#MemoryCSS nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+#MemoryCSS nav ul li {
+  flex: 1;
+  background-color: #E0D6FF;
+  padding: 1.5rem 0;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0.2rem 0.5rem #E068;
+  margin: 0 1rem;
+}
+#MemoryCSS nav ul li:hover {
+  background-color: #C12A7B;
+  transform: scale(1.1);
+}
+#MemoryCSS nav a {
+  font-family: "Holtwood One SC", serif;
+  text-decoration: none;
+  color: #C12A7B;
+  font-size: 1.125rem;
+  transition: color 1s ease;
+}
+#MemoryCSS nav ul li:hover a {
+  color: white;
+}
+
