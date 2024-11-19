@@ -38,14 +38,12 @@ img {
 }
 
 .slider img {
-  width: 100%;
-  flex-shrink: 0;
-  object-fit: cover;
+  width: 200px; /* Set the width */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
 }
 
 button {
   position: absolute;
-  top: 50%;
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
