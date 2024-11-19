@@ -7,11 +7,12 @@
  * Always set the map height explicitly to define the size of the div element
  * that contains the map. 
  */
- 
-  #map {
-    height: 100vh; /* Full viewport height */
-    width: 100%;   /* Full width */
-  }
+#map {
+    height: 400px; /* Reasonable fixed height */
+    width: 100%;   /* Stretch across the section */
+    border: 2px solid #C12A7B; /* Optional for styling */
+    margin-top: 1rem;
+}
   
   
 

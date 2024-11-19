@@ -1,50 +1,51 @@
-
-
 <!DOCTYPE html>
 <html lang="en" id="MemoryCSS">
 <head>
-  <meta charset="utf-8">
-  <title>Google Maps API Example</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/mem.css">
-  <style>
-    #map {
-      height: 500px;
-      width: 100%;
-    }
-  </style>
+    <meta charset="utf-8">
+    <title>Project 3 Memory Page</title>
+    <link href='https://fonts.googleapis.com/css?family=Devonshire' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/mem.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOoXIohEMI8gxbTDfzXLX4dqGvSPvJghs&callback=initMap" async defer></script>
+    <!-- External JavaScript -->
+    <script src="js/script.js"></script>
 </head>
 <body>
-  <header>
-    <h2>Navigation</h2>
-    <nav>
-      <ul>
-        <li><a href="index.html">Resume</a></li>
-        <li><a href="colorscheme.html">Color Schemes</a></li>
-        <li><a href="arcane.html">Arcane Pool</a></li>
-        <li><a href="memories.html">Memories</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h1>Google Maps API Example</h1>
-    <div id="map"></div>
-  </main>
-  <script>
-    function initMap() {
-      const location = { lat: 40.7128, lng: -74.0060 }; // Example: NYC
-      const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 12,
-        center: location,
-      });
-      const marker = new google.maps.Marker({
-        position: location,
-        map: map,
-        title: "Hello NYC!",
-      });
-    }
-  </script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOoXIohEMI8gxbTDfzXLX4dqGvSPvJghs&callback=initMap" async defer></script>
+    <header>
+        <h2>-_-_-_-_-_-_-_- ---- * |/\  Pages  /\| * ---- -_-_-_-_-_-_-_-</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Resume</a></li>
+                <li><a href="colorscheme.html">Color Schemes</a></li>
+                <li><a href="arcane.html">Arcane Pool</a></li>
+                <li><a href="memories.html">Memories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section>
+            <h1><strong>Shonni Watkins Resume</strong></h1>
+            <div class="contact-info">
+                <p>Phone: 783-798-7918</p>
+                <p>Address: 1273 Rocker Drive, Chicago IL 69750</p>
+                <p>Email: swatkins1@hawk.itt.edu</p>
+            </div>
+        </section>
+        <section>
+            <h3>Work Experience</h3>
+            <p><strong>Illinois Institute of Technology (IIT) - Math TA</strong></p>
+        </section>
+        <section>
+            <h3>Google Maps API Example</h3>
+            <!-- Map container -->
+            <div id="map"></div>
+        </section>
+    </main>
 </body>
 </html>
 
