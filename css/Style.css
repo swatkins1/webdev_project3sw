@@ -174,7 +174,10 @@
   font-size: 1.125rem; /* 18px */
   transition: color 1s ease;
 }
-
+#FontColor ul li {
+  font-family: "Holtwood One SC", serif;
+  color: #C12A7B;
+}
 #ColorCSS nav ul li:hover a {
   color: white;
 }
