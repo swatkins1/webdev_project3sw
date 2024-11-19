@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
 
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOoXIohEMI8gxbTDfzXLX4dqGvSPvJghs&callback=initMap" async defer></script>
+
     <!-- Google Maps API script with your API key (Ensure it's only one script) -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOoXIohEMI8gxbTDfzXLX4dqGvSPvJghs&callback=initMap" async defer></script>
 
@@ -45,26 +48,10 @@
             <!-- Google Maps Section -->
             <h1>Google Maps API Example</h1>
             <!-- Map container with an ID -->
-            <div id="map" style="width: 100%; height: 500px;"></div>
+            <div id="map"></div>
         </section>
     </main>
 
-    <!-- Web Component Google Maps Example -->
-    <gmp-map
-      center="43.4142989,-124.2301242"
-      zoom="4"
-      map-id="DEMO_MAP_ID"
-      style="height: 400px"
-    >
-      <gmp-advanced-marker
-        position="37.4220656,-122.0840897"
-        title="Mountain View, CA"
-      ></gmp-advanced-marker>
-      <gmp-advanced-marker
-        position="47.648994,-122.3503845"
-        title="Seattle, WA"
-      ></gmp-advanced-marker>
-    </gmp-map>
 </body>
 </html>
 
