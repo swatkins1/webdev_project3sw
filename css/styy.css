@@ -199,6 +199,11 @@
   }
 }
 /* Main Content Styling */
+
+#ColorCSS body {
+  background-color: #3e79e6;
+}
+
 #ColorCSS .colorblock, .conclusion {
   background-color: #A2D6F9;
   padding: 1.25rem;
