@@ -14,7 +14,11 @@
     margin-top: 1rem;
 }
   
-  
+/* Alternatively, scale proportionally */
+img {
+    width: 200px; /* Set the width */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+}
 
 
 /* 
