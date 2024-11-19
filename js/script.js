@@ -1,6 +1,7 @@
 function initMap() {
     // Define map location
-    const location = { lat: 40.7128, lng: -74.0060 }; // Example: NYC
+    const location = { lat: 41.89247723681111, lng:  -87.61004561387278 }; // Navy Pier
+	
     // Initialize map
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 12,
@@ -10,11 +11,11 @@ function initMap() {
     const marker = new google.maps.Marker({
         position: location,
         map: map,
-        title: "Hello NYC!",
+        title: "Navy Pier!",
     });
     // Add info window
     const infoWindow = new google.maps.InfoWindow({
-        content: "<p>This is New York City!</p>",
+        content: "<p>This is Navy Pier!</p>",
     });
     marker.addListener("click", () => {
         infoWindow.open(map, marker);
