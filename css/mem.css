@@ -13,19 +13,23 @@
     border: 2px solid #C12A7B; /* Optional for styling */
     margin-top: 1rem;
 }
-  
-/* Alternatively, scale proportionally */
-img {
-    width: 200px; /* Set the width */
-    height: auto; /* Automatically adjust height to maintain aspect ratio */
-}
+
+
+
+
+
+
+
 
 
 
 
 .slider-container {
   position: relative;
-  max-width: 80%;
+  max-width: 700px; /* Set max width */
+  max-height: 300px; /* Set max height */
+  width: 100%; /* Ensure responsiveness */
+  height: 300px; /* Fix height */
   margin: auto;
   overflow: hidden;
   border: 2px solid #ddd;
@@ -38,8 +42,10 @@ img {
 }
 
 .slider img {
-  width: 200px; /* Set the width */
-    height: auto; /* Automatically adjust height to maintain aspect ratio */
+  width: 100%; /* Adjust image to container width */
+  height: 100%; /* Adjust image to container height */
+  object-fit: contain; /* Scale images proportionally */
+  flex-shrink: 0; /* Prevent images from shrinking */
 }
 
 button {
@@ -64,7 +70,6 @@ button {
 button:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
 
 
 
