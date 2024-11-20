@@ -42,7 +42,7 @@
 }
 
 .slider img {
-  width: 100%; /* Adjust image to container width */
+  width: 300px; /* Adjust image to container width */
   height: 100%; /* Adjust image to container height */
   object-fit: contain; /* Scale images proportionally */
   flex-shrink: 0; /* Prevent images from shrinking */
