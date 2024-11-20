@@ -23,13 +23,13 @@
 
 
 
-
+/*
 .slider-container {
   position: relative;
   max-width: 700px; /* Set max width */
-  max-height: 500px; /* Set max height */
-  width: 100%; /* Ensure responsiveness */
-  height: 300px; /* Fix height */
+/*  max-height: 500px; /* Set max height *//*
+  width: 100%; /* Ensure responsiveness */    /*
+  height: 300px; /* Fix height */          /*
   margin: auto;
   overflow: hidden;
   border: 2px solid #ddd;
@@ -42,11 +42,80 @@
 }
 
 .slider img {
-  width: 700px; /* Adjust image to container width */
-  height: 100%; /* Adjust image to container height */
-  object-fit: contain; /* Scale images proportionally */
-  flex-shrink: 0; /* Prevent images from shrinking */
+  width: 700px; /* Adjust image to container width */            /*
+  height: 100%; /* Adjust image to container height */              /*
+  object-fit: contain; /* Scale images proportionally */           /*
+  flex-shrink: 0; /* Prevent images from shrinking */           /*
 }
+
+*/
+
+
+
+
+.slider-container {
+  position: relative;
+  max-width: 700px; /* Set max width */
+  max-height: 300px; /* Set max height to your desired slider size */
+  width: 100%; /* Ensure responsiveness */
+  height: 300px; /* Fix height */
+  margin: auto;
+  overflow: hidden; /* Hide parts of images outside the container */
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%; /* Full width to contain images */
+}
+
+.slider img {
+  width: 100%; /* Fit image within the container's width */
+  height: 100%; /* Fit image within the container's height */
+  object-fit: contain; /* Preserve aspect ratio */
+  flex-shrink: 0; /* Prevent images from shrinking */
+  max-width: 700px; /* Ensure each image is no wider than the slider window */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 button {
   position: absolute;
@@ -145,5 +214,24 @@ gmp-map {
 }
 #MemoryCSS nav ul li:hover a {
   color: white;
+}
+
+
+
+
+
+
+
+
+
+#MemoryCSS body {
+  background-color: #f5d0e0;
+}
+#MemoryCSS p  {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  color: #b50954;
+  float: none; 
+  position: relative; 
 }
 
