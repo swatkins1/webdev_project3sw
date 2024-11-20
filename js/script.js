@@ -37,7 +37,7 @@ function initMap() {
     });
     const busnpCircle = new google.maps.Circle({
         map: map,
-        radius: 400,
+        radius: 50,
         center: busnp,
         fillColor: "#FF0000",
         fillOpacity: 0.35,
@@ -60,7 +60,7 @@ function initMap() {
     });
     const fireworknpCircle = new google.maps.Circle({
         map: map,
-        radius: 300,
+        radius: 50,
         center: fireworknp,
         fillColor: "#00FF00",
         fillOpacity: 0.35,
@@ -83,7 +83,7 @@ function initMap() {
     });
     const jewelnpCircle = new google.maps.Circle({
         map: map,
-        radius: 200,
+        radius: 50,
         center: jewelnp,
         fillColor: "#0000FF",
         fillOpacity: 0.35,
@@ -106,7 +106,7 @@ function initMap() {
     });
     const movienpCircle = new google.maps.Circle({
         map: map,
-        radius: 250,
+        radius: 50,
         center: movienp,
         fillColor: "#FFFF00",
         fillOpacity: 0.35,
@@ -129,7 +129,7 @@ function initMap() {
     });
     const walknpCircle = new google.maps.Circle({
         map: map,
-        radius: 500,
+        radius: 50,
         center: walknp,
         fillColor: "#FF00FF",
         fillOpacity: 0.35,
@@ -152,7 +152,7 @@ function initMap() {
     });
     const sunsetnpCircle = new google.maps.Circle({
         map: map,
-        radius: 400,
+        radius: 50,
         center: sunsetnp,
         fillColor: "#FFA500",
         fillOpacity: 0.35,
