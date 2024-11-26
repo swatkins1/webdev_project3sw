@@ -112,9 +112,8 @@
 /*FLUID ONLY ColorScheme css page*/
 /* Basic Page Styling */
 /* Body Styling */
-/*FLUID ONLY ColorScheme css page*/
-/* Basic Page Styling */
-/* Body Styling */
+/*AND MEDIA MOBILE FRIENDLY ONLY ColorScheme css page*/
+
 
 #ColorCSS header {
   background-color: #C7E1FF;
@@ -200,6 +199,13 @@
 }
 /* Main Content Styling */
 
+
+
+
+
+
+
+/* Base Styles (Provided CSS) */
 #ColorCSS body {
   background-color: #9cced6;
 }
@@ -214,63 +220,95 @@
   width: 80%;
   max-width: 90%;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  float: none; /* Added for float */
-  position: relative; /* Added for positioning */
 }
+
 #ColorCSS .colorblock img, .conclusion img {
   width: 50%;
   max-width: 100%;
   height: auto;
-  float: none;
-  position: relative; 
 }
+
 /* Header and Paragraph Styling */
 #ColorCSS h1, h2 {
   color: green;
   text-align: center;
-  float: none; 
-  position: relative; 
 }
+
 #ColorCSS p, .conclusion p {
   color: green;
   font-family: Verdana, Arial, sans-serif;
   font-size: 1.25rem;
   text-align: center;
-  margin: 0;
-  float: none; 
-  position: relative; 
 }
+
 #ColorCSS h2 {
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   color: green;
-  float: none; 
-  position: relative; 
 }
+
 /* Conclusion Styling */
 #ColorCSS .conclusion h2 {
   font-family: "Devonshire", cursive;
   font-size: 2.5rem;
   color: black;
-  float: none; 
-  position: relative; 
 }
-#ColorCSS .conclusion p {
-  font-family: Verdana, Arial, sans-serif;
-  font-size: 1.25rem;
-  color: black;
-  float: none; 
-  position: relative; 
-}
+
 #ColorCSS .conclusion iframe {
   margin-top: 1.25rem;
   width: 100%;
   max-width: 35rem;
   height: 17.5rem;
   border: none;
-  float: none; 
-  position: relative; 
 }
+
+/* Media Query 1: Screens wider than 600px */
+@media (min-width: 600px) {
+  #ColorCSS .colorblock, .conclusion {
+    width: 70%;
+    padding: 1.5rem;
+  }
+
+  #ColorCSS p, .conclusion p {
+    font-size: 1.5rem;
+  }
+
+  #ColorCSS h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Media Query 2: Screens wider than 900px */
+@media (min-width: 900px) {
+  #ColorCSS .colorblock, .conclusion {
+    width: 60%;
+    padding: 2rem;
+    margin: 2rem auto;
+  }
+
+  #ColorCSS h1, h2 {
+    font-size: 2.5rem;
+  }
+
+  #ColorCSS p, .conclusion p {
+    font-size: 1.75rem;
+  }
+
+  #ColorCSS .conclusion iframe {
+    width: 80%;
+    max-width: 40rem;
+    height: 20rem;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 
 

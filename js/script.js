@@ -30,7 +30,7 @@ function initMap() {
         title: "Bus Stop near Navy Pier",
     });
     const busnpInfoWindow = new google.maps.InfoWindow({
-        content: "<p>This is the Bus Stop near Navy Pier!</p>",
+        content: "<p>Bus was stuck for 20 minutes!</p>",
     });
     busnpMarker.addListener("click", () => {
         busnpInfoWindow.open(map, busnpMarker);
@@ -53,7 +53,7 @@ function initMap() {
         title: "Fireworks near Navy Pier",
     });
     const fireworknpInfoWindow = new google.maps.InfoWindow({
-        content: "<p>Fireworks location near Navy Pier!</p>",
+        content: "<p>Fireworks from afar pic!</p>",
     });
     fireworknpMarker.addListener("click", () => {
         fireworknpInfoWindow.open(map, fireworknpMarker);
@@ -76,7 +76,7 @@ function initMap() {
         title: "Jewel near Navy Pier",
     });
     const jewelnpInfoWindow = new google.maps.InfoWindow({
-        content: "<p>Jewel location near Navy Pier!</p>",
+        content: "<p>Jewel Drone Photo!</p>",
     });
     jewelnpMarker.addListener("click", () => {
         jewelnpInfoWindow.open(map, jewelnpMarker);
@@ -99,7 +99,7 @@ function initMap() {
         title: "Movie near Navy Pier",
     });
     const movienpInfoWindow = new google.maps.InfoWindow({
-        content: "<p>Movie location near Navy Pier!</p>",
+        content: "<p>Close up fireworks!</p>",
     });
     movienpMarker.addListener("click", () => {
         movienpInfoWindow.open(map, movienpMarker);
@@ -122,7 +122,7 @@ function initMap() {
         title: "Walk near Navy Pier",
     });
     const walknpInfoWindow = new google.maps.InfoWindow({
-        content: "<p>Walk location near Navy Pier!</p>",
+        content: "<p>Daytime walking trip near Navy Pier!</p>",
     });
     walknpMarker.addListener("click", () => {
         walknpInfoWindow.open(map, walknpMarker);
@@ -145,7 +145,7 @@ function initMap() {
         title: "Sunset near Navy Pier",
     });
     const sunsetnpInfoWindow = new google.maps.InfoWindow({
-        content: "<p>Sunset location near Navy Pier!</p>",
+        content: "<p>Pretty sunset pic near Navy Pier!</p>",
     });
     sunsetnpMarker.addListener("click", () => {
         sunsetnpInfoWindow.open(map, sunsetnpMarker);
