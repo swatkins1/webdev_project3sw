@@ -227,11 +227,72 @@ gmp-map {
 #MemoryCSS body {
   background-color: #f5d0e0;
 }
-#MemoryCSS p  {
+
+#MemoryCSS p {
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   color: #b50954;
-  float: none; 
-  position: relative; 
+  float: none;
+  position: relative;
 }
 
+#MemoryCSS .intro {
+  background-color: #A2D6F9;
+  padding: 1.25rem;
+  margin: 1rem auto;
+  text-align: center;
+  border: 0.625rem solid #8631cc;
+  border-radius: 1rem;
+  width: 80%;
+  max-width: 90%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+#MemoryCSS .lists {
+
+    background-color: #E59DF3;
+  padding: 1.25rem;
+  margin: 1rem auto;
+  text-align: center;
+  border: 0.625rem solid #b531cc;
+  border-radius: 1rem;
+  width: 80%;
+  max-width: 90%;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+   
+   #MemoryCSS .lists h1 {
+        font-size: 32px;  /* 2rem = 32px */
+  color: #C12A7B;
+  font-family: "Holtwood One SC", serif;
+   }
+
+#MemoryCSS .intro h1 {
+        font-size: 32px;  /* 2rem = 32px */
+  color: #C12A7B;
+  font-family: "Holtwood One SC", serif;
+   }
+#MemoryCSS   .lists li {
+  color: purple;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+
+#MemoryCSS  .intro  p {
+  color: purple;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+
+
+
+
+
+
+   
+}
