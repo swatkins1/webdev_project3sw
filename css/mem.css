@@ -226,7 +226,7 @@ gmp-map {
     font-family: "Holtwood One SC", serif;
 }
 
-#MemoryCSS .lists li {
+#MemoryCSS .lists h2 {
     color: purple;
     font-family: Verdana, Arial, sans-serif;
     font-size: 15px;
