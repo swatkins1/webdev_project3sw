@@ -487,3 +487,246 @@
   height: 315px;
   border: none;
 }
+
+/**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#MemoryCSS #map {
+    height: 400px; /* Reasonable fixed height */
+    width: 100%;   /* Stretch across the section */
+    border: 2px solid #C12A7B; /* Optional for styling */
+    margin-top: 1rem;
+}
+
+/*
+.slider-container {
+  position: relative;
+  max-width: 700px; /* Set max width */
+/*  max-height: 500px; /* Set max height *//*
+  width: 100%; /* Ensure responsiveness */    /*
+  height: 300px; /* Fix height */          /*
+  margin: auto;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+  width: 700px; /* Adjust image to container width */            /*
+  height: 100%; /* Adjust image to container height */              /*
+  object-fit: contain; /* Scale images proportionally */           /*
+  flex-shrink: 0; /* Prevent images from shrinking */           /*
+}
+*/
+
+#MemoryCSS .slider-container {
+    position: relative;
+    max-width: 700px; /* Set max width */
+    max-height: 300px; /* Set max height to your desired slider size */
+    width: 100%; /* Ensure responsiveness */
+    height: 300px; /* Fix height */
+    margin: auto;
+    overflow: hidden; /* Hide parts of images outside the container */
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+#MemoryCSS .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Full width to contain images */
+}
+
+#MemoryCSS .slider img {
+    width: 100%; /* Fit image within the container's width */
+    height: 100%; /* Fit image within the container's height */
+    object-fit: contain; /* Preserve aspect ratio */
+    flex-shrink: 0; /* Prevent images from shrinking */
+    max-width: 700px; /* Ensure each image is no wider than the slider window */
+}
+
+#MemoryCSS button {
+    position: absolute;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#MemoryCSS #prev {
+    left: 10px;
+}
+
+#MemoryCSS #next {
+    right: 10px;
+}
+
+#MemoryCSS button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+#MemoryCSS html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#MemoryCSS gmp-map {
+    height: 400px;
+}
+
+#MemoryCSS header {
+    background-color: #C7E1FF;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+#MemoryCSS header h2 {
+    margin-top: 0;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #C12A7B;
+    background-color: #E59DF3;
+    font-family: "Holtwood One SC", serif;
+    text-align: center;
+    border-radius: 0.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0.2rem 0.5rem #E068;
+}
+
+#MemoryCSS nav {
+    margin-top: 2rem;
+}
+
+#MemoryCSS nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#MemoryCSS nav ul li {
+    flex: 1;
+    background-color: #E0D6FF;
+    padding: 1.5rem 0;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0.2rem 0.5rem #E068;
+    margin: 0 1rem;
+}
+
+#MemoryCSS nav ul li:hover {
+    background-color: #C12A7B;
+    transform: scale(1.1);
+}
+
+#MemoryCSS nav a {
+    font-family: "Holtwood One SC", serif;
+    text-decoration: none;
+    color: #C12A7B;
+    font-size: 1.125rem;
+    transition: color 1s ease;
+}
+
+#MemoryCSS nav ul li:hover a {
+    color: white;
+}
+
+#MemoryCSS body {
+    background-color: #f5d0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#MemoryCSS p {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    color: #b50954;
+    float: none;
+    position: relative;
+}
+
+#MemoryCSS .intro {
+    background-color: #A2D6F9;
+    padding: 1.25rem;
+    margin: 1rem auto;
+    text-align: center;
+    border: 0.625rem solid #8631cc;
+    border-radius: 1rem;
+    width: 80%;
+    max-width: 90%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+#MemoryCSS .intro h1 {
+    font-size: 32px; /* 2rem */
+    color: #C12A7B;
+    font-family: "Holtwood One SC", serif;
+}
+
+#MemoryCSS .intro p {
+    color: purple;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#MemoryCSS .lists {
+    background-color: #E59DF3;
+    padding: 1.25rem;
+    margin: 1rem auto;
+    text-align: center;
+    border: 0.625rem solid #b531cc;
+    border-radius: 1rem;
+    width: 80%;
+    max-width: 90%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+#MemoryCSS .lists h1 {
+    font-size: 32px;
+    color: #C12A7B;
+    font-family: "Holtwood One SC", serif;
+}
+
+#MemoryCSS .lists li {
+    color: purple;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#MemoryCSS h3 {
+    font-size: 32px;
+    color: #C12A7B;
+    font-family: "Holtwood One SC", serif;
+    text-align: center;
+    margin: 20px 0;
+}

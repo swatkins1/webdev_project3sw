@@ -162,17 +162,6 @@ function initMap() {
     });
 }
 
-
-
-
-
-
-
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
   const slider = document.querySelector(".slider");
   const images = slider.querySelectorAll("img");
