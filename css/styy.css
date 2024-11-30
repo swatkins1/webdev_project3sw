@@ -488,6 +488,29 @@
   border: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -497,7 +520,7 @@
  * Always set the map height explicitly to define the size of the div element
  * that contains the map. 
  */
-#MemoryCSS #map {
+#map {
     height: 400px; /* Reasonable fixed height */
     width: 100%;   /* Stretch across the section */
     border: 2px solid #C12A7B; /* Optional for styling */
@@ -530,7 +553,7 @@
 }
 */
 
-#MemoryCSS .slider-container {
+.slider-container {
     position: relative;
     max-width: 700px; /* Set max width */
     max-height: 300px; /* Set max height to your desired slider size */
@@ -542,13 +565,13 @@
     border-radius: 10px;
 }
 
-#MemoryCSS .slider {
+.slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: 100%; /* Full width to contain images */
 }
 
-#MemoryCSS .slider img {
+.slider img {
     width: 100%; /* Fit image within the container's width */
     height: 100%; /* Fit image within the container's height */
     object-fit: contain; /* Preserve aspect ratio */
@@ -556,7 +579,7 @@
     max-width: 700px; /* Ensure each image is no wider than the slider window */
 }
 
-#MemoryCSS button {
+button {
     position: absolute;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
@@ -567,28 +590,29 @@
     z-index: 1;
 }
 
-#MemoryCSS #prev {
+#prev {
     left: 10px;
 }
 
-#MemoryCSS #next {
+#next {
     right: 10px;
 }
 
-#MemoryCSS button:hover {
+button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* 
  * Optional: Makes the sample page fill the window. 
  */
-#MemoryCSS html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-#MemoryCSS gmp-map {
+gmp-map {
     height: 400px;
 }
 
